@@ -1,0 +1,6 @@
+<%= form_with(model: @item, class: 'ui form') do |f| %>
+    <%= f.label :name%>
+    <%= f.text_field :name, required:true %>
+
+    <%= f.submit nil, class: 'ui button primary' %>
+<% end %>
